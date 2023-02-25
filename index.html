@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>CV Proyecto final integrador CV</title>
+    <link rel="stylesheet" type="text/css" href="css/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/844a3c346b.css" crossorigin="anonymous">
+  </head>
+    
+</head>
+<body>
+
+    <header class="container" id="home">
+        <div> 
+            <nav class="navbar">
+                <div class="logo">
+                    <h2>CV AH</h2>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#cv">Mi curriculum vitae</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="toggle-menu">
+                    <i class="fa-solid fa-bars" id="toggle_open"></i>
+                    <i class="fa-solid fa-close" id="toggle_close"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="info-content">
+                <h1>Soy, <span>Andy Hart</span></h1>
+            </div> 
+            <div class="info-content">
+                <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="Imagen de una persona tomada para colocar en su CV">
+            </div>                 
+        </div>     
+    </header>
+
+
+    <section class="grid-container" id="cv">
+        <div class="grid-item">
+            <h2>Curriculum Vitae</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Datos Personales</h2>
+                <ul class="datos-personales">
+                    <li>Nombre: Andy</li>
+                    <li>Apellido: Hart</li>
+                    <li>Genero: Masculino</li>
+                    <li>Fecha de nacimiento: 01/12/1986</li>
+                    <li>Nacionalidad: Argentino</li>
+                    <li>Residencia actual: Argentina</li>
+                    <li>Estado civil: Soltero</li>
+                </ul>
+        </div>
+        <div class="grid-item">
+            <h2>Educación</h2>
+            <div class="educacion-divider">
+                <h4>Universidad "College Town</h4>
+                <p>Lic en diseño multimedia</p>
+                <p>2004-2010</p>
+                <h4>Instituto Libertad y Aprendizaje</h4>
+                <p>Bachillerato en tecnologías</p>
+                <p>1998-2004</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <h2>Experiencia Laboral</h2>
+            <h4>Gráfica PX</h4>
+            <p>Atención al público</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>2011-2014</p>
+            <h4>Gráfica PX</h4>
+            <p>Asistente administrativo</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>2014-2017</p>
+            <h4>Gráfica PX</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>2017 - 2022</p>
+        </div>
+        <div class="grid-item">
+            <h2>Habilidades desarrolladas</h2>
+            <ul class="text">
+                <li>Idioma ingles intermedio</li>
+                <li>Comunicación efectiva</li>
+                <li>Atención al cliente</li>
+                <li>Proactivo</li>
+                <li>Liderazgo</li>
+                <li>Habilidades en software</li>
+                    <ul class="text">
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Premier</li>
+                        <li>Adobe Indesign</li>
+                        <li>Office 365</li>
+                    </ul>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="flex-container" id="contacto">
+        <h2>Contacto</h2>
+        <form action="" method="post" class="form">
+            <div class="form__section">
+                <input type="text" class="form__input" placeholder="Escriba su nombre" required>
+            </div>
+            <div class="form__section">
+                <input type="email" class="form__input" placeholder="Escriba su e-mail" required>
+            </div>
+            <div class="form__section">
+                <textarea class="form__input" placeholder="Escriba su texto aquí" required></textarea>
+            </div>
+         <button class="botton-contact">Enviar mensaje</button>
+        </form>
+        <div class="form-img">
+            <img src="https://www.welovedigitalmarketing.com/wp-content/uploads/2020/11/email.jpg" alt="imágen logo de correo electrónico">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Visita mis redes sociales</h2>
+        </div>
+        <div class="iconos">
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>  
+ 
+ <script src="https://kit.fontawesome.com/844a3c346b.js" crossorigin="anonymous"></script> 
+ <script src="/JV/scripts.js"></script>
+</body>
+</html>
